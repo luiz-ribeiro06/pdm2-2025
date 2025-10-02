@@ -61,4 +61,6 @@ void main() {
   List<Funcionario> funcionarioList = [funcionarioA, funcionarioB, funcionarioC];
   EquipeProjeto equipe = new EquipeProjeto("App de Compras", funcionarioList);
   String jsonStr = jsonEncode(equipe.toJson());
+  
+  print(jsonStr);
 }
